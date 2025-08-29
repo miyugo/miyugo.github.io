@@ -7,6 +7,9 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
+		"ignore": [
+			"**/*.astro"
+		],
 		"includes": [
 			"**",
 			"!**/src/**/*.css",
