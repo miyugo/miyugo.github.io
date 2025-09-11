@@ -1,7 +1,7 @@
 ---
 title: 文件目录结构与命名规则
 published: 2025-09-11
-description: A simple example of a Markdown blog post.
+description: 家用 NAS 文件存储与命名规范
 tags: [Nas, File, Structure]
 category: Nas
 draft: false
