@@ -1,5 +1,5 @@
 ---
-title:文件目录结构与命名规则
+title: 文件目录结构与命名规则
 published: 2025-09-11
 description: A simple example of a Markdown blog post.
 tags: [Nas, File, Structure]
