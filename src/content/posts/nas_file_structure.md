@@ -175,89 +175,76 @@ NAS/
 
 ## 📝 文件命名规范
 
-### 🎬 影视资源
-- **电影**
-  ```
-  片名.年份.分辨率.来源.编码格式.扩展名
-  示例: Inception.2010.1080p.BluRay.x264.mkv
-  ```
-- **电视剧 / 动漫 / 综艺**
-  ```
-  剧名.SxxExx.年份.分辨率.来源.扩展名
-  示例: Breaking.Bad.S01E01.2008.1080p.WEB-DL.mkv
-  示例: Shingeki.no.Kyojin.S02E01.2017.1080p.WEBRip.mkv
-  ```
+### 🎬 视频
 
----
+- **电影**: `片名.年份.版本.分辨率.编码.音轨.扩展名` → `Inception.2010.DirectorsCut.1080p.H265.DTS.mkv`
+
+- **电视剧**: `剧名.SxxEyy.年份.分辨率.来源.扩展名` → `西游记.S01E01.1986.1080p.HDTV.AAC.mkv`
+
+- **动漫**: `动漫名.SxxEyy.字幕组.分辨率.扩展名` → `OnePiece.S01E01.HR字幕组.720p.mkv`
+
+- **动漫剧场版**: `动漫名.Movie.年份.版本.mkv` → `OnePiece.Movie.2019.Stampede.1080p.BluRay.mkv`
+
+- **纪录片**: `标题.SxxEyy.年份.分辨率.mkv` → `Planet.Earth.II.S01E01.2016.1080p.WEB-DL.mkv`
+
+- **综艺**: `节目名.Eyy.嘉宾.分辨率.mp4` → `RunningMan.E101.金钟国.720p.mp4`
+
+- **演唱会**: `歌手 - 演唱会名 (年份).分辨率.格式` → `JayChou - CarnivalWorldTour (2020).1080p.BluRay.mkv`
+
+- **学习视频**: `课程名.第xx讲.标题.分辨率.格式` → `PythonCourse.第01讲.变量与数据类型.720p.mp4`
+
+- **Vlog**: `博主名.标题.日期.格式` → `CaseyNeistat.NYCWalk.20240912.mp4`
+
+- **舞蹈**: `舞团.舞曲名.日期.格式` → `1MillionDanceStudio.Dynamite.20230115.mp4`
+
+- **MV**: `歌手 - 歌曲名.分辨率.MV.格式` → `TaylorSwift - Lover.1080p.MV.mp4`
+
+- **短片**: `标题.日期.格式` → `ShortFilm.Lost.20220801.mp4`
+
+- **成人影片**: `番号/片名.年份.分辨率.格式` → `ABP-123.2021.1080p.WEB-DL.mp4`
 
 ### 🎵 音乐
-- **按歌手**
-  ```
-  歌手/专辑名 (年份)/序号_歌曲名.格式
-  示例: The Beatles/Abbey Road (1969)/01_Come Together.mp3
-  ```
-- **按类型**
-  ```
-  流派/歌曲名.格式
-  示例: Jazz/Autumn Leaves.flac
-  ```
 
----
+`歌手/专辑名 (年份)/序号_歌曲名.格式` → `JayChou - 七里香.flac`
 
 ### 📷 照片
-- **按时间**
-  ```
-  YYYY/MMDD_事件/文件名
-  示例: 2025/202501_TokyoTrip/20250101_TokyoTower.jpg
-  ```
-- **按来源**
-  ```
-  来源/文件名
-  示例: Phone/2025_Phone_Snapshot.jpg
-  ```
 
----
+`YYYY/MMDD_事件/文件名` → `2025/202501_TokyoTrip/20250101_TokyoTower.jpg`
+
+`来源_YYYYMMDD_编号.jpg` → `iPhone_20250912_001.jpg`
+
+### 📚 电子书
+
+- **小说**: `作者 - 书名.格式` → `刘慈欣 - 三体.epub`
+
+- **技术**: `书名.版本.格式` → `LinuxKernelDevelopment.3rd.pdf`
+
+- **教育**: `科目 - 书名.格式` → `数学 - 高等代数.pdf`
+
+- **杂志**: `杂志名.期号.年份.格式` → `Nature.No123.2023.pdf`
+
+- **漫画**: `漫画名.Vol编号.年份.格式` → `OnePiece.Vol001.1997.cbz`
 
 ### 📄 文档
-```
-年份_主题_版本.扩展名
-示例: 2025_简历_ZhangYunpeng_v1.0.pdf
-```
 
----
+- **工作文档**: `项目名_文档名.扩展名` → `ProjectX_设计文档.docx`
 
-### 💾 软件
-- **Windows**
-  ```
-  软件名_版本号_架构.扩展名
-  示例: Office_2021_Pro_Plus_x64.iso
-  ```
-- **macOS**
-  ```
-  软件名_版本号.dmg
-  示例: Photoshop_2024_v25.1.0.dmg
-  ```
-- **Linux**
-  ```
-  软件名_版本号_架构.包格式
-  示例: htop_3.2.2_amd64.deb
-  ```
-- **Android**
-  ```
-  应用名_版本号.apk
-  示例: WeChat_9.0.0.apk
-  ```
-- **iOS**
-  ```
-  应用名_版本号.ipa
-  示例: TestFlight_3.5.0.ipa
-  ```
+- **学习资料**: `年份_科目/主题.扩展名` → `2025_机器学习课程笔记.pdf`
 
----
+- **财务**: `年份_用途.扩展名` → `2024_银行流水.xlsx`
 
-### 💿 系统镜像
-```
-系统名_版本号_架构.扩展名
-示例: Win11_23H2_x64.iso
-示例: Ubuntu_24.04_LTS_x64.iso
-```
+- **证件**: `证件类型.扩展名` → `护照.pdf`
+
+- **简历**: `年份_简历_姓名.pdf` → `2025_简历_ZhangYunpeng.pdf`
+
+- **软件**: `软件名.版本.扩展名` → `Photoshop.2024.exe`
+
+- **系统镜像**: `系统名_版本号_架构.扩展名` → `Ubuntu.22.04.x64.iso`
+
+- **知识库**: `主题_关键词_日期.md` → `Linux_SSH配置_20250912.md`
+
+- **其他**: `文件名.扩展名` → `发票扫描件.pdf`
+
+### 🗂 Temp_临时
+
+- **临时文件**: `未分类_来源_日期.扩展名` → `未分类_Bilibili_20250912.mp4`
