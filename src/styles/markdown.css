@@ -2,6 +2,10 @@
     @apply underline underline-offset-4 transition-colors hover:opacity-80;
   }
 
+.btn-regular-dark {
+    @apply bg-[var(--btn-regular-bg)] hover:bg-[var(--btn-regular-bg-hover)] active:bg-[var(--btn-regular-bg-active)] text-[var(--btn-content-color)];
+}
+
 .custom-md {
     h1 {
         @apply text-3xl;
