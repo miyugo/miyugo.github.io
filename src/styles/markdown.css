@@ -1,3 +1,12 @@
+@layer components {
+  .link {
+    @apply underline underline-offset-4 transition-colors hover:opacity-80;
+    /* 或者直接写原生 CSS */
+    /* text-decoration: underline; */
+    /* cursor: pointer; */
+  }
+}
+
 .custom-md {
     h1 {
         @apply text-3xl;
