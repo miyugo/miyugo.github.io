@@ -6,7 +6,7 @@ tags: [poems, scripts]
 category: scripts
 draft: false
 ---
-"""
+```
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -446,4 +446,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-"""
+```
