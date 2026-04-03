@@ -183,47 +183,47 @@ NAS/
 
 - **动漫**: `动漫名.SxxEyy.字幕组.分辨率.扩展名` → `OnePiece.S01E01.HR字幕组.720p.mkv`
 
-- **动漫剧场版**: `动漫名.Movie.年份.版本.mkv` → `OnePiece.Movie.2019.Stampede.1080p.BluRay.mkv`
+- **动漫剧场版**: `动漫名.Movie.年份.版本.扩展名` → `OnePiece.Movie.2019.Stampede.1080p.BluRay.mkv`
 
-- **纪录片**: `标题.SxxEyy.年份.分辨率.mkv` → `Planet.Earth.II.S01E01.2016.1080p.WEB-DL.mkv`
+- **纪录片**: `标题.SxxEyy.年份.分辨率.扩展名` → `Planet.Earth.II.S01E01.2016.1080p.WEB-DL.mkv`
 
-- **综艺**: `节目名.Eyy.嘉宾.分辨率.mp4` → `RunningMan.E101.金钟国.720p.mp4`
+- **综艺**: `节目名.Eyy.嘉宾.分辨率.扩展名` → `RunningMan.E101.金钟国.720p.mp4`
 
-- **演唱会**: `歌手-演唱会名(年份).分辨率.格式` → `JayChou-CarnivalWorldTour(2020).1080p.BluRay.mkv`
+- **演唱会**: `歌手-演唱会名(年份).分辨率.扩展名` → `JayChou-CarnivalWorldTour(2020).1080p.BluRay.mkv`
 
-- **学习视频**: `课程名.第xx讲.标题.分辨率.格式` → `PythonCourse.第01讲.变量与数据类型.720p.mp4`
+- **学习视频**: `课程名.第xx讲.标题.分辨率.扩展名` → `PythonCourse.第01讲.变量与数据类型.720p.mp4`
 
-- **Vlog**: `博主名.标题.日期.格式` → `CaseyNeistat.NYCWalk.20240912.mp4`
+- **Vlog**: `博主名.标题.日期.扩展名` → `CaseyNeistat.NYCWalk.20240912.mp4`
 
-- **舞蹈**: `舞团.舞曲名.日期.格式` → `1MillionDanceStudio.Dynamite.20230115.mp4`
+- **舞蹈**: `舞团.舞曲名.日期.扩展名` → `1MillionDanceStudio.Dynamite.20230115.mp4`
 
-- **MV**: `歌手-歌曲名.分辨率.MV.格式` → `TaylorSwift-Lover.1080p.MV.mp4`
+- **MV**: `歌手-歌曲名.分辨率.扩展名` → `TaylorSwift-Lover.1080p.mp4`
 
-- **短片**: `标题.日期.格式` → `ShortFilm.Lost.20220801.mp4`
+- **短片**: `标题.日期.扩展名` → `ShortFilm.Lost.20220801.mp4`
 
-- **成人影片**: `番号/片名.年份.分辨率.格式` → `ABP-123.2021.1080p.WEB-DL.mp4`
+- **成人影片**: `番号/片名.年份.分辨率.扩展名` → `ABP-123.2021.1080p.WEB-DL.mp4`
 
 ### 🎵 音乐
 
-`歌手/专辑名(年份)/序号_歌曲名.格式` → `JayChou-七里香.flac`
+`歌手/专辑名(年份)/序号_歌曲名.扩展名` → `JayChou-七里香.flac`
 
 ### 📷 照片
 
-`YYYY/MMDD_事件/文件名` → `2025/202501_TokyoTrip/20250101_TokyoTower.jpg`
+`YYYY/MMDD_事件/文件名.扩展名` → `2025/202501_TokyoTrip/20250101_TokyoTower.jpg`
 
-`来源_YYYYMMDD_编号.jpg` → `iPhone_20250912_001.jpg`
+`来源_YYYYMMDD_编号.扩展名` → `iPhone_20250912_001.jpg`
 
 ### 📚 电子书
 
-- **小说**: `作者-书名.格式` → `刘慈欣-三体.epub`
+- **小说**: `作者-书名.扩展名` → `刘慈欣-三体.epub`
 
-- **技术**: `书名.版本.格式` → `LinuxKernelDevelopment.3rd.pdf`
+- **技术**: `书名.版本.扩展名` → `LinuxKernelDevelopment.3rd.pdf`
 
-- **教育**: `科目-书名.格式` → `数学-高等代数.pdf`
+- **教育**: `科目-书名.扩展名` → `数学-高等代数.pdf`
 
-- **杂志**: `杂志名.期号.年份.格式` → `Nature.No123.2023.pdf`
+- **杂志**: `杂志名.期号.年份.扩展名` → `Nature.No123.2023.pdf`
 
-- **漫画**: `漫画名.Vol编号.年份.格式` → `OnePiece.Vol001.1997.cbz`
+- **漫画**: `漫画名.Vol编号.年份.扩展名` → `OnePiece.Vol001.1997.cbz`
 
 ### 📄 文档
 
@@ -235,13 +235,13 @@ NAS/
 
 - **证件**: `证件类型.扩展名` → `护照.pdf`
 
-- **简历**: `年份_简历_姓名.pdf` → `2025_简历_ZhangSan.pdf`
+- **简历**: `年份_简历_姓名.扩展名` → `2025_简历_ZhangSan.pdf`
 
 - **软件**: `软件名.版本.扩展名` → `Photoshop.2024.exe`
 
 - **系统镜像**: `系统名_版本号_架构.扩展名` → `Ubuntu.22.04.x64.iso`
 
-- **知识库**: `主题_关键词_日期.md` → `Linux_SSH配置_20250912.md`
+- **知识库**: `主题_关键词_日期.扩展名` → `Linux_SSH配置_20250912.md`
 
 - **其他**: `文件名.扩展名` → `发票扫描件.pdf`
 
